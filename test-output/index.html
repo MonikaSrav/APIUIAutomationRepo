@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse-1573881050\testng-customsuite.xml</span>
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--850292074\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +122,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.virtual.report.TestScript" hash-for-method="getSpaceXApiLaunchLatest">getSpaceXApiLaunchLatest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test01_GET" hash-for-method="test_01">test_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -134,6 +139,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test01_GET</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_01">
+                  </a> <!-- test_01 -->
+                  <span class="method-name">test_01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -181,7 +201,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse-1573881050\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--850292074\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -190,7 +210,19 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.blaze.ui.BlazeWelcomePage&quot;/&gt;
       &lt;class name=&quot;com.virtual.report.TestScript&quot;/&gt;
+      &lt;class name=&quot;Test01_GET&quot;/&gt;
+      &lt;class name=&quot;com.spacex.api.SpaceXApi&quot;/&gt;
+      &lt;class name=&quot;com.test.util.TestInfo&quot;/&gt;
+      &lt;class name=&quot;com.test.util.UiUtil&quot;/&gt;
+      &lt;class name=&quot;com.blaze.ui.BookingConfirmationPage&quot;/&gt;
+      &lt;class name=&quot;com.blaze.ui.PurchaseTicketPage&quot;/&gt;
+      &lt;class name=&quot;com.test.util.ApiPropertyFileReader&quot;/&gt;
+      &lt;class name=&quot;com.test.base.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.blaze.ui.BlazeFlightsPage&quot;/&gt;
+      &lt;class name=&quot;com.test.util.UiPropertyFileReader&quot;/&gt;
+      &lt;class name=&quot;com.blaze.ui.blazee2e&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -204,7 +236,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (13 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,28 +262,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getSpaceXApiLaunchLatest')
 data.setCell(0, 2, 'com.virtual.report.TestScript')
-data.setCell(0, 3, 5634);
+data.setCell(0, 3, 5639);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'blazeUIEnd2EndFlow')
 data.setCell(1, 2, 'com.virtual.report.TestScript')
-data.setCell(1, 3, 4209);
+data.setCell(1, 3, 3781);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'blazeUIFindFlights')
-data.setCell(2, 2, 'com.virtual.report.TestScript')
-data.setCell(2, 3, 1411);
+data.setCell(2, 1, 'test_01')
+data.setCell(2, 2, 'Test01_GET')
+data.setCell(2, 3, 1511);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'blazeUIHomePageVerification')
+data.setCell(3, 1, 'blazeUIFindFlights')
 data.setCell(3, 2, 'com.virtual.report.TestScript')
-data.setCell(3, 3, 171);
+data.setCell(3, 3, 1404);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'blazeUIHomePageVerification')
+data.setCell(4, 2, 'com.virtual.report.TestScript')
+data.setCell(4, 3, 160);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -262,17 +298,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">getSpaceXApiLaunchLatest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Response of API: {"fairings":{"reused":true,"recovery_attempt":true,"recovered":true,"ships":["5ea6ed2e080df4000697c909","5ea6ed2f080df4000697c90c"]},"links":{"patch":{"small":"https://imgur.com/BrW201S.png","large":"https://imgur.com/573IfGk.png"},"reddit":{"campaign":"https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/","launch":"https://www.reddit.com/r/spacex/comments/nkxg4s/rspacex_starlink28_launch_discussion_and_updates/","media":null,"recovery":"https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"},"flickr":{"small":[],"original":[]},"presskit":null,"webcast":"https://youtu.be/xRu-ekesDyY","youtube_id":"xRu-ekesDyY","article":null,"wikipedia":"https://en.wikipedia.org/wiki/Starlink"},"static_fire_date_utc":null,"static_fire_date_unix":null,"tbd":false,"net":false,"window":null,"rocket":"5e9d0d95eda69973a809d1ec","success":true,"details":"This mission launches the 28th batch of operational Starlink satellites, which were version 1.0, from SLC-40. It was the 29th Starlink launch overall. The satellites plan to be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on ASDS JRTI.","crew":[],"ships":["5ea6ed30080df4000697c913","5ea6ed2f080df4000697c90c","5ee68c683c228f36bd5809b5","5ea6ed2f080df4000697c90b","5ea6ed2e080df4000697c909"],"capsules":[],"payloads":["6079bd679a06446e8c61bf7d"],"launchpad":"5e9e4501f509094ba4566f84","auto_update":true,"launch_library_id":"fb25ecf0-fb51-4b5e-b678-105f6ba4c06e","failures":[],"flight_number":128,"name":"Starlink-28 (v1.0)","date_utc":"2021-05-26T18:59:00.000Z","date_unix":1622055540,"date_local":"2021-05-26T14:59:00-04:00","date_precision":"hour","upcoming":false,"cores":[{"core":"5f57c54a0622a633027900a1","flight":2,"gridfins":true,"legs":true,"reused":true,"landing_attempt":true,"landing_success":true,"landing_type":"ASDS","landpad":"5e9e3033383ecbb9e534e7cc"}],"id":"6079bd399a06446e8c61bf77"}</span>
-                <span class="reporter-method-output">Response of status: 200</span>
-                <span class="reporter-method-output">Verify: flightNo 128</span>
-                <span class="reporter-method-output">Verify: flightName Starlink-28 (v1.0)</span>
-                <span class="reporter-method-output">Verify: flightsuccess true</span>
-                <span class="reporter-method-output">SpaceX API response details are received128</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">blazeUIHomePageVerification</span>
               <div class="reporter-method-output-div">
@@ -301,7 +326,18 @@ return data;
                 <span class="reporter-method-output">verifyFlightPageHeader: flights page header verified from:Boston ,and to:Cairo ,city names</span>
                 <span class="reporter-method-output">choosethisflight: Choose this flights button selected</span>
                 <span class="reporter-method-output">submitPurchaseTicket: purchase flight selected</span>
-                <span class="reporter-method-output">getConfirmation: Purchase Flight Ticket Confirmation ID1622726919820</span>
+                <span class="reporter-method-output">getConfirmation: Purchase Flight Ticket Confirmation ID1622728029916</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getSpaceXApiLaunchLatest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response of API: {"fairings":{"reused":true,"recovery_attempt":true,"recovered":true,"ships":["5ea6ed2e080df4000697c909","5ea6ed2f080df4000697c90c"]},"links":{"patch":{"small":"https://imgur.com/BrW201S.png","large":"https://imgur.com/573IfGk.png"},"reddit":{"campaign":"https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/","launch":"https://www.reddit.com/r/spacex/comments/nkxg4s/rspacex_starlink28_launch_discussion_and_updates/","media":null,"recovery":"https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"},"flickr":{"small":[],"original":[]},"presskit":null,"webcast":"https://youtu.be/xRu-ekesDyY","youtube_id":"xRu-ekesDyY","article":null,"wikipedia":"https://en.wikipedia.org/wiki/Starlink"},"static_fire_date_utc":null,"static_fire_date_unix":null,"tbd":false,"net":false,"window":null,"rocket":"5e9d0d95eda69973a809d1ec","success":true,"details":"This mission launches the 28th batch of operational Starlink satellites, which were version 1.0, from SLC-40. It was the 29th Starlink launch overall. The satellites plan to be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on ASDS JRTI.","crew":[],"ships":["5ea6ed30080df4000697c913","5ea6ed2f080df4000697c90c","5ee68c683c228f36bd5809b5","5ea6ed2f080df4000697c90b","5ea6ed2e080df4000697c909"],"capsules":[],"payloads":["6079bd679a06446e8c61bf7d"],"launchpad":"5e9e4501f509094ba4566f84","auto_update":true,"launch_library_id":"fb25ecf0-fb51-4b5e-b678-105f6ba4c06e","failures":[],"flight_number":128,"name":"Starlink-28 (v1.0)","date_utc":"2021-05-26T18:59:00.000Z","date_unix":1622055540,"date_local":"2021-05-26T14:59:00-04:00","date_precision":"hour","upcoming":false,"cores":[{"core":"5f57c54a0622a633027900a1","flight":2,"gridfins":true,"legs":true,"reused":true,"landing_attempt":true,"landing_success":true,"landing_type":"ASDS","landpad":"5e9e3033383ecbb9e534e7cc"}],"id":"6079bd399a06446e8c61bf77"}</span>
+                <span class="reporter-method-output">Response of status: 200</span>
+                <span class="reporter-method-output">Verify: flightNo 128</span>
+                <span class="reporter-method-output">Verify: flightName Starlink-28 (v1.0)</span>
+                <span class="reporter-method-output">Verify: flightsuccess true</span>
+                <span class="reporter-method-output">SpaceX API response details are received128</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -326,23 +362,33 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">blazeUIHomePageVerification</span>
-                <span class="method-start">8231 ms</span>
+                <span class="method-start">17443 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getSpaceXApiLaunchLatest</span>
-                <span class="method-start">8411 ms</span>
+                <span class="method-start">17615 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">blazeUIFindFlights</span>
-                <span class="method-start">14049 ms</span>
+                <span class="method-start">23257 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">blazeUIEnd2EndFlow</span>
-                <span class="method-start">15463 ms</span>
+                <span class="method-start">24665 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test01_GET</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_01</span>
+                <span class="method-start">28452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.virtual.report.TestScript</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">clean</span>
-                <span class="method-start">19719 ms</span>
+                <span class="method-start">30081 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
